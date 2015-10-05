@@ -19,7 +19,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
 app.config['DEBUG'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = \
-    'postgresql://prangedb_admin:admin@localhost/prangedb'
+    'postgresql://pdb:pdbadmin@localhost/pdb'
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 app.config['SECRET_KEY'] = 'temporary secret key string'
 
